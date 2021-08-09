@@ -2,5 +2,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('music/', views.SongList.as_views()),
+    path('music/', views.SongList.as_view()),
 ]
